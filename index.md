@@ -119,7 +119,7 @@ user1:~ $ sakura foo.txt &
 
 どうしても\$PATHからコマンドで呼び出したい場合、以下のようなファイルを\$PATH内の適当なディレクトリ[^pathdir]に置く。
 
-```bash:sakura
+```bash
 #!/bin/sh
 /c/PROGRA~2/sakura/sakura.exe ${*} & 
 ```
