@@ -2,7 +2,7 @@
 需要がない
 
 ## MSYS2とは
-https://www.msys2.org/
+[https://www.msys2.org/](https://www.msys2.org/)
 
 Windows上で動作するLinux __風__ ターミナル環境。  
 同様のプロジェクトで歴史のある[Cygwin](https://www.cygwin.com/)からフォークされ、なんやかんや[^msys1]あって今に至るプロジェクト。
@@ -53,7 +53,7 @@ Windows上で動作するLinux __風__ ターミナル環境。
     - CygwinみたいにGitをwgetする所から始めなくてもいい(\$pacman -S git)
 - 何故か日本人にやたら人気があるので日本語のリファレンスはそこそこ
     - Twitter検索とかでも出てくる
-    - https://twitter.com/search?vertical=default&q=MSYS2&src=typd
+    - [https://twitter.com/search?vertical=default&q=MSYS2&src=typd](https://twitter.com/search?vertical=default&q=MSYS2&src=typd)
 - MinGW互換のターミナルを起動することもできる
     - ~~ほぼ使ったことない~~[^mingw]
 
