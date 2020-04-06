@@ -94,10 +94,14 @@ Windows上で動作するLinux __風__ ターミナル環境。
 ```shell
 $ /c/PROGRA~1/path/to/app.exe arg1 arg2 &
 ```
+
 のように実行すれば普通に実行できる。  
 ただし、/c/以下ではなくMSYS2内部のパスで実行するとアプリの解像度がおかしくなる場合がある。 
 
 以下サクラエディタの例。[^progra]
+
+[^progra]: PROGRA&tilde;2は&quot;Program Files (x86)&quot;のMS-DOS互換パス名。これ自体はWindowsの元々の機能。同様に先述のPROGRA&tilde;1は&quot;Program Files&quot;を指す。
+
 
 ```bash
 user1:~ $ /c/PROGRA~2/sakura/sakura.exe foo.txt &
@@ -112,9 +116,6 @@ user1:/usr/bin $ cd ~
 user1:~ $ sakura foo.txt &
 # NG 
 ```
-
-[^progra]: PROGRA~2は"Program Files (x86)"のMS-DOS互換パス名。これ自体はWindowsの元々の機能。同様に先述のPROGRA~1は"Program Files"を指す。
-
 
 どうしても\$PATHからコマンドで呼び出したい場合、以下のようなファイルを\$PATH内の適当なディレクトリ[^pathdir]に置く。
 
