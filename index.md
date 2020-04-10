@@ -147,3 +147,5 @@ user1:~ $ sakura foo.txt &
 また内容が間違ってたらご指摘頂けるとありがたいです。
 
 それでは、良い開発 on Windowsライフを。
+
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
