@@ -148,4 +148,4 @@ user1:~ $ sakura foo.txt &
 
 それでは、良い開発 on Windowsライフを。
 
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/intent/tweet?text=MSYS2%E3%82%92%E4%BD%BF%E3%81%86%20%7C%20msys2-tips&tw_p=tweetbutton&url=https%3A%2F%2Fclkbng.github.io%2Fmsys2-tips%2F" style="background-color:#55acee;padding:4px 8px;color:#eee">Tweet</a>
