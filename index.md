@@ -2,7 +2,7 @@
 需要がない
 
 ## MSYS2とは
-https://www.msys2.org/
+[https://www.msys2.org/](https://www.msys2.org/)
 
 Windows上で動作するLinux __風__ ターミナル環境。  
 同様のプロジェクトで歴史のある[Cygwin](https://www.cygwin.com/)からフォークされ、なんやかんや[^msys1]あって今に至るプロジェクト。
@@ -53,7 +53,7 @@ Windows上で動作するLinux __風__ ターミナル環境。
     - CygwinみたいにGitをwgetする所から始めなくてもいい(\$pacman -S git)
 - 何故か日本人にやたら人気があるので日本語のリファレンスはそこそこ
     - Twitter検索とかでも出てくる
-    - https://twitter.com/search?vertical=default&q=MSYS2&src=typd
+    - [https://twitter.com/search?vertical=default&q=MSYS2&src=typd](https://twitter.com/search?vertical=default&q=MSYS2&src=typd)
 - MinGW互換のターミナルを起動することもできる
     - ~~ほぼ使ったことない~~[^mingw]
 
@@ -120,7 +120,7 @@ user1:~ $ sakura foo.txt &
 
 どうしても\$PATHからコマンドで呼び出したい場合、以下のようなシェルスクリプトを設定したい\$PATH内の適当なディレクトリ[^pathdir]に置く。
 
-```bash:sakura
+```bash
 #!/bin/sh
 /c/PROGRA~2/sakura/sakura.exe ${*} & 
 # filename : sakura (command name)
@@ -142,8 +142,8 @@ user1:~ $ sakura foo.txt &
 ~~突き詰めるとArch入れた方が速いとか言わない。~~
 
 ## お問い合わせ
-上の記事でわからない点があったら著者の[CLK](https://twitter.com/CLK_rhythm)に聞いてください。  
+本記事で不明な点があったら著者の[CLK](https://twitter.com/CLK_rhythm)に聞いてください。  
 運良く知っていれば答えられます。  
-内容が間違ってたらご指摘頂けるとありがたいです。
+また内容が間違ってたらご指摘頂けるとありがたいです。
 
 それでは、良い開発 on Windowsライフを。
