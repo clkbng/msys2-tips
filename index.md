@@ -148,4 +148,7 @@ user1:~ $ sakura foo.txt &
 
 それでは、良い開発 on Windowsライフを。
 
-<a href="https://twitter.com/intent/tweet?text=MSYS2%E3%82%92%E4%BD%BF%E3%81%86%20%7C%20msys2-tips&tw_p=tweetbutton&url=https%3A%2F%2Fclkbng.github.io%2Fmsys2-tips%2F" style="background-color:#55acee;padding:4px 8px;color:#eee;text-decoration:none;" target="_blank">Tweet</a>
+<a href="https://twitter.com/intent/tweet?text=MSYS2%E3%82%92%E4%BD%BF%E3%81%86%20%7C%20msys2-tips&tw_p=tweetbutton&url=https%3A%2F%2Fclkbng.github.io%2Fmsys2-tips%2F" style="background-color:#55acee;padding:4px 8px;color:#eee;text-decoration:none;margin-top:5em;" target="_blank">Tweet</a>
+
+---
+
