@@ -1,3 +1,7 @@
+## .zshrcの例
+というか筆者が実際に使用しているもの
+
+```zsh
 bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
 bindkey "^[[3~" delete-char
@@ -27,3 +31,4 @@ alias ls='ls --color=auto --show-control-chars --time-style=long-iso --human-rea
 export MANPATH=$MANPATH:/usr/local/texlive/2019/texmf-dist/doc/man:/c/PROGRA~2/Graphviz2.38/share/man
 export INFOPATH=$INFOPATH:/usr/local/texlive/2019/texmf-dist/doc/info
 export PATH=$PATH:/usr/local/texlive/2019/bin/win32:/c/PROGRA~2/Graphviz2.38/bin
+```
