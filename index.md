@@ -53,8 +53,7 @@ Windows上で動作するLinux __風__ ターミナル環境。
 - ある程度のLinuxとpacmanの知識があればMSYS2/Cygwin固有の知識はほぼいらない
     - CygwinみたいにGitをwgetする所から始めなくてもいい(\$pacman -S git)
 - 何故か日本人にやたら人気があるので日本語のリファレンスはそこそこ
-    - Twitter検索とかでも出てくる
-    - [https://twitter.com/search?vertical=default&q=MSYS2&src=typd](https://twitter.com/search?vertical=default&q=MSYS2&src=typd)
+    - [Twitter検索](https://twitter.com/search?vertical=default&q=MSYS2&src=typd)でも妙に日本語ツイートが多い
 - MinGW互換のターミナルを起動することもできる
     - ~~ほぼ使ったことない~~[^mingw]
 
@@ -99,7 +98,7 @@ Windows上で動作するLinux __風__ ターミナル環境。
 ## ログインシェルについて
 いくつかの方法でデフォルトのBashから変更することもできる。シェル自体はpacmanで入手できる場合が多い。[^shells]  
 実際に筆者は2週間ほど[^zsh_use]試験的にZshを使用しており、今のところ目立った不具合などもなく起動は若干早くなったような気がする。ただし.zshrcを若干書かないと使いにくいかも。  
-[.zshrc記述例](zshrc.md)
+[.zshrc記述例](zshrc)
 
 一方、fish shellはZshと同様にpacmanでインストールできるものの、私の環境では不具合があったので導入を断念した。  
 Zshと比べて移行コストが大きいこともあり個人的にはそこまで突き詰めようと思わないが、勇気ある人はチャレンジするのもいいかもしれない。
